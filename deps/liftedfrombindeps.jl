@@ -94,7 +94,7 @@ end
 
         if has_7z === nothing
             has_7z  = success(`where 7z`)
-            has_zip = success(`where unzip`)
+        has_zip = false#    has_zip = success(`where unzip`)
         end
 
         if has_7z
